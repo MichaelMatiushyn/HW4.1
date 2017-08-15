@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: black;
+}
+
+body {
+	background-color: grey;
+	font-family: Tahoma;
+}
+
+.wrapper {
+	float: center;
+	margin: auto;
+	margin-top: 50px;
+	padding: 10px;
+	width: 380px;
+	height: 530px;
+	background-color: white;
+}
+
+.frame {
+	float: center;
+	box-sizing: border-box;
+	width: 380px;
+	height: 530px; 
+	border: 2px solid #5a5a5a;
+}
+
+.LabelHead {
+	float: left;
+	margin-left: 50px;
+	padding-top: 5px;
+	font-size: 22px;
+	text-align: center;
+	word-spacing: 2px;
+}
+
+.image {
+	float: left;
+	box-sizing: border-box;
+	margin-left: 60px;
+	margin-top: 20px;
+}
+
+.sales {
+	float: left;
+	width: 190px;
+	height: 32px;
+	text-align: center;
+	background-color: #8bc144;
+	-webkit-box-shadow: -3px 3px 0px -1px rgba(156,156,156,0.85);
+	-moz-box-shadow: -3px 3px 0px -1px rgba(156,156,156,0.85);
+	box-shadow: -3px 3px 0px -1px rgba(156,156,156,0.85);
+}
+
+.sales p {
+	color: white; 
+	font-size: 24px;
+	font-style: normal;
+}
+
+.price {
+	float: left;
+	margin-left:82px;
+	margin-top: 1px;
+	padding-top: 10px;
+	width: 228px;
+	font-size: 31px;
+	text-align: center;
+}
+
+.buy {
+	float: left;
+	margin-left: 64px;
+	padding-top: 5px;
+}
+
+.buy p {
+	width: 225px;
+	height: 40px;
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-left: 3px;
+	font-size: 28px;
+	text-align: center;
+	text-shadow: -1px 1px 1px black;
+	background-color: #E93F33;
+	box-shadow: 0px 4px 0px 0px rgba(133,0,0,1);
+}
+
+.buy p a {
+	color: white;
+}
